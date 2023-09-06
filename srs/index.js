@@ -49,7 +49,7 @@ app.get('/about/*', (req, res)=>{
 
 app.get('*', (req, res)=>{
     res.render("404",{
-        errorcoment : "Opps page does not found",
+        errorcoment : "Opps page does not found  Click her eto go back ",
     });
 });     //isse sbhi kam chall jayega 
 
